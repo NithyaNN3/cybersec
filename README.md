@@ -1,2 +1,2 @@
-# cybersec
-Collating notes for cybersec study 
+# Cybersecurity
+Collating notes for cybersecurity related stuff
