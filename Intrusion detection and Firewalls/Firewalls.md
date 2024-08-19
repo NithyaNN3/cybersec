@@ -12,3 +12,14 @@ Accepted, Denied or Rejected (in which case, an indication is sent)
 
 ## Firewall Rule table aka Network Access Control List
 [Firewall table desc](https://www.idc-online.com/technical_references/pdfs/data_communications/Firewall_Rules.pdf)
+
+## Types of Filters
+1) (Stateless) Packet filter firewall
+2) Stateful firewall
+3) Application/Proxy Firewall
+   
+## Denning's Model
+1) Right Object Pairs
+2) Protection State Matrix
+
+  
