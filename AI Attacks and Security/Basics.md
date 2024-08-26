@@ -23,6 +23,7 @@ Data poisoning during training phase - by inserting malicious data during the tr
 3. **After Training** - Machine unlearning (a forgetting mechanism)
 4. **Federated learning** - collaboratively train an ML model without knowing each other's data
 5. **Differential privacy**
+6. **Refusal training** 
 
 ## Future of AI Security
 **Trustworthy AI** - performance isnt the only imp thing, we need: explainability, robustness, reliability, fairness
