@@ -13,11 +13,14 @@ Data poisoning during training phase - by inserting malicious data during the tr
  2. Poisoning Attacks - poisoning the ML model itself
  3. Backdoor Attacks - injection of a "trigger" from the backdoor
  4. Model Extraction attacks - stealing of knowledge from model
- 5. Membership inference attacks - knowing if specific data is in the model; "black box" access; overfitting 
+ 5. Membership inference attacks - knowing if specific data is in the model; "black box" access; overfitting
+ 6. Model Inversion attacks -
+ 7. Link stealing attacks - samples from same class are prone to be connected to each other and youd be finding this link
 
 ## Defense methods
 1. **Before Training** - distillation of data by removing potential perturbations before training the model; regenerating clean data instead of removing the suspicious parts
 2. **During Training** - Architecture optimisation; Attention mechanism (reduce impact of malicious data); Adversarial training (injecting adverse data so that the model is aware of it beforehand); Robustness certification (certify that the model can handle adversity)
 3. **After Training** - Machine unlearning (a forgetting mechanism)
+
 
 
