@@ -21,6 +21,12 @@ Data poisoning during training phase - by inserting malicious data during the tr
 1. **Before Training** - distillation of data by removing potential perturbations before training the model; regenerating clean data instead of removing the suspicious parts
 2. **During Training** - Architecture optimisation; Attention mechanism (reduce impact of malicious data); Adversarial training (injecting adverse data so that the model is aware of it beforehand); Robustness certification (certify that the model can handle adversity)
 3. **After Training** - Machine unlearning (a forgetting mechanism)
+4. **Federated learning** - collaboratively train an ML model without knowing each other's data
+5. **Differential privacy**
+
+## Future of AI Security
+**Trustworthy AI** - performance isnt the only imp thing, we need: explainability, robustness, reliability, fairness
+
 
 
 
