@@ -33,3 +33,9 @@ and so on..
   - understand attack surface and create attacks
   - create possible malicious payloads
   - list possible attacks
+3) Identify vulnerabilities:
+  - execute threat modelling plan
+  - inject arbitrary code and change execution flow
+  - access control and user management
+  - fuzz the application
+  - identify cause and severity of vulnerability
