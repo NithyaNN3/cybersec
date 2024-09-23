@@ -1,4 +1,4 @@
-### Pentesting
+# Pentesting
 - manual or automated techniques that simulate an attack on an org's security arrangements
 - black box testing 
 
