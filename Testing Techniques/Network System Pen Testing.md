@@ -50,3 +50,19 @@ and so on..
   - includes remediation recommendation
 6) **Quality assurance:**
   - for the technical members & non-technical members to review
+
+## Common Network Vulnerabilities
+- insufficient network segmentation
+- firewall rules too permissive
+- users have unnecessary or too many permissions
+- active directory misconfigurations
+- default passwords on network devices
+- lack of patching
+- legacy servers or devices
+- poor password policy
+- insufficient network access control
+- lack of authentication
+
+https://bugcrowd.com/rmit...
+
+Upskilling pentesting - offensive security certified professional certification, HackTheBox
