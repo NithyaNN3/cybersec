@@ -22,20 +22,31 @@ and so on..
 
 # Network Pentest Phases
 - follow a methodology like OWASP, PTES, NIST
-1) Gather information:
+1) **Gather information:**
   - using OSINT (open source intelligence) framework
   - port scanning and service enumeration
   - foot printing, directory brute forcing
   - understand how target system works
-2) Threat modelling:
+2) **Threat modelling:**
   - identify target and draw data flow diagrams
   - find technologies in use
   - understand attack surface and create attacks
   - create possible malicious payloads
   - list possible attacks
-3) Identify vulnerabilities:
+3) **Identify vulnerabilities:**
   - execute threat modelling plan
   - inject arbitrary code and change execution flow
   - access control and user management
   - fuzz the application
   - identify cause and severity of vulnerability
+  - Tools: automated testing(Nessus, Burpsuite pro), OSINT (SpiderFoot, ProjectDiscovery.io), NMAP port scanner, Metasploit (contains packages for identifying and exploiting vulnerabilities)
+4) **Exploitation:**
+  - exploit vulnerabilities identifies in previous step
+  - escalate privileges
+  - lateral movement (attack internal network)
+  - dump credentials and data
+5) **Reporting:**
+  - executive summary of the test
+  - includes remediation recommendation
+6) **Quality assurance:**
+  - for the technical members & non-technical members to review
