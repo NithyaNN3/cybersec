@@ -19,3 +19,17 @@ and so on..
 3. define purpose and limitation[
 4. Prepare test environment, data
 5. Select tester and timeframe
+
+# Network Pentest Phases
+- follow a methodology like OWASP, PTES, NIST
+1) Gather information:
+  - using OSINT (open source intelligence) framework
+  - port scanning and service enumeration
+  - foot printing, directory brute forcing
+  - understand how target system works
+2) Threat modelling:
+  - identify target and draw data flow diagrams
+  - find technologies in use
+  - understand attack surface and create attacks
+  - create possible malicious payloads
+  - list possible attacks
