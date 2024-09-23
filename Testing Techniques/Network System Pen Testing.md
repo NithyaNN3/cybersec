@@ -13,3 +13,9 @@
 5) Wireless pentesting
 and so on..
 
+## Testing Prep
+1. Define scope
+2. determine testing applications
+3. define purpose and limitation[
+4. Prepare test environment, data
+5. Select tester and timeframe
