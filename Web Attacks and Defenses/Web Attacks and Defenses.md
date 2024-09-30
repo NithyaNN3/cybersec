@@ -34,4 +34,29 @@ Http (Hypertext transfer protocol) - protocol to request and retrieve data from 
 
 
 - HTTP is stateless: hence lifetime is limited and disconnects
-- 
+- HTTP cookie: small piece of data that server sends to the web browser
+- HTTP Cookie jar: multiple tabs on a browser usually share the same cookie information aka cookie jar
+
+## Attack Models
+1. Malicious website
+2. Malicious external resource
+3. Network attacker
+4. Malware attackers
+
+**Web services** - Web services store and maintain website related data like comments, etc
+![Capture](https://github.com/user-attachments/assets/7ce2386b-5a31-4880-85c5-4b3ba68e7d8d)
+
+### SQL Injection
+- Inject SQL queries to the server
+- Allows attacker to execute arbitrary SQL to SQL server
+
+**SQL Injection Defenses** - 
+1. Input sanitization: disallow special characters, escape special characters
+2. Prepared statements: Question marks when there are SQL statements (needs more explanation)
+
+### Cookie Theft
+- cookies are used to track user authentication - session cookies
+- problem is that HTTP cookies can be stolen
+- this can be used to impersonate a user - cookie theft and session hijacking
+- Defenses: Secure cookies are only sent to a server in an encrypted request over a HTTPS protocol
+- Defenses: Unpredictability - randomly chosen and sufficiently long
