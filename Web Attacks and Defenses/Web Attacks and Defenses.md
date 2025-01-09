@@ -1,7 +1,7 @@
 # What is the Web?
 Network of servers and services
 
-URL (Uniform resource locator) - helps locate resources on the internet
+URL (Uniform Resource Locator) - helps locate resources on the internet
 1. Scheme - internet protocol to retrieve data over the internet
 2. Domain - which server to contact
 3. Location - domain with additional info 
